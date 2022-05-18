@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPV6与IPV4的对比实验</title>
+    <style>
+        div{
+         font-size: 30px;   
+        }
+    </style>
+</head>
+<body>
+    <img src="images/a2.png" alt=""><br>
+    <div>查看网络配置</div><br><br>
+    <img src="images/b2.png" alt=""><br>
+    <div>Ping 百度</div><br><br>
+    <img src="images/c2.png" alt=""><br>
+    <img src="images/d2.png" alt=""><br>
+    <div>同时得到与IPV6和IPV4相关的报文</div><br><br>
+    <img src="images/e2.png" alt=""><br>
+    <div>IPV4协议报文</div><br><br>
+    <img src="images/f2.png" alt=""><br>
+    <div>IPV6协议报文</div><br><br>
+    <div>
+        区别一：IPv6无首部长度字段，长度为固定的40（total-header）字节<br>
+区别二：服务类型被取消了<br>
+区别三：total长度没了，取而代之的是有效载荷长度字段<br>
+区别四：标识Identification，标志Flags，片偏移Fragment Offset都没有了，这些功能都在分片扩展首部中<br>
+区别五：TTL没有了，换位了跳数限制字段<br>
+区别六：取消了协议字段，改用下一个首部字段<br>
+区别七：取消了检验和字段，这样就加快了路由器处理数据报的速度<br>
+&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;这一步告诉我们：网络层的差错检测可以精简掉了<br>
+区别八：IPV6取消了选项字段改用拓展首部来实现选项功能<br>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,285 @@
+body{
+	min-width: 1200px;
+
+	/*overflow: hidden;*/
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+/*header*/
+.header{
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 5;
+	background:url("../images/hdbj.png") repeat-x;
+}
+.header-widht{
+
+}
+/*logo*/
+.logo{
+	width: 245px;
+}
+/*logo end*/
+/*nav*/
+.nav{
+	width: 700px;
+	position: relative;
+
+}
+.nav-slide{
+	border-bottom:3px solid #2fae9a ;
+	position: absolute;
+	height: 63px;
+	width: 105px;
+}
+.nav ul{
+	position: relative;
+}
+.nav ul li{
+	float: left;
+	width: 100px;
+	text-align: center;
+	font-size: 16px;
+}
+.nav ul li a{
+	color: #333;
+}
+.nav ul li a:hover{
+	color: #2fae9a;
+}
+.nav ul .active a{
+	color:#2fae9a;
+
+}
+/*nav end*/
+/*header end*/
+/*slide*/
+/* flexslider */
+
+.flexslider {
+	position: relative;
+	height:705px;
+	overflow: hidden;
+	background: url(../images/loading.gif) 50% no-repeat;
+}
+.slides {
+	position: relative;
+	z-index: 1;
+}
+.slides li {
+	height: 705px;
+}
+
+.flex-control-nav {
+	position: absolute;
+	bottom: 10px;
+	z-index: 2;
+	width: 100%;
+	text-align: center;
+	display: block;
+}
+
+.flex-control-nav li {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin: 0 5px;
+	*display: inline;
+	zoom: 1;
+}
+
+.flex-control-nav a {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	line-height: 40px;
+	overflow: hidden;
+	background: url(../images/dot.png) right 0 no-repeat;
+	cursor: pointer;
+}
+
+.flex-control-nav .flex-active {
+	background-position: 0 0;
+}
+.flex-direction-nav {
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	top: 45%;
+}
+.flex-direction-nav li a {
+	display: block;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	cursor: pointer;
+	position: absolute;
+}
+.flex-direction-nav li a.flex-prev {
+	left: 40px;
+	background: url(../images/prev.png) center center no-repeat;
+}
+
+.flex-direction-nav li a.flex-next {
+	right: 40px;
+	background: url(../images/next.png) center center no-repeat;
+}
+/*slide end*/
+
+/*content*/
+.index-wxkh ul{
+	margin-right: -194px;
+}
+.index-wxkh ul li{
+	width: 269px;
+	height: 269px;
+	float: left;
+	margin-right: 195px;
+	text-align: center;
+	line-height: 269px;
+	font-size: 24px;
+}
+.index-wxkh ul li a{
+	color:#fff ;
+}
+.indexh3span{
+	top: -70px;
+	padding: 15px 50px;
+}
+.index-case  ul li{
+	border: 1px solid #999999;
+	width: 266px;
+	height: 262px;
+	padding: 10px;
+	margin: 0 56px 52px;
+	float: left;
+	text-align: center;
+
+}
+
+.index-newul ul{
+	margin-right: -43px;
+}
+.index-newul ul li{
+	float: left;
+	width: 577px;
+	margin-right: 40px;
+	zoom: 1;
+	overflow: hidden;
+	padding-bottom: 45px;
+}
+.index-newdata{
+	width: 73px;
+}
+.index-newul ul li:hover .index-newh3a{
+	background: #2fae9a;
+	color: #fff;
+}
+.index-newul ul li:hover .index-newspan{
+	color: #2fae9a;
+}
+.index-newul ul li:hover .index-newsph3 a{
+	color: #2fae9a;
+}
+.index-newa{
+	background:url("../images/indexnewbj.jpg") no-repeat;
+	display: block;
+	height: 25px;
+	width: 25px;
+	top: 0;
+	right: 0;
+}
+.index-newul ul li:hover .index-newa{
+	background:url("../images/indexnewbjhove.jpg") no-repeat;
+	display: block;
+	height: 25px;
+	width: 25px;
+	top: 0;
+	right: 0;
+}
+.index-newp{
+	width: 490px;
+}
+
+.syimg{
+	width: 484px;
+	height: 476px;
+}
+.sylist{
+	width: 490px;
+	margin-top: 60px;
+}
+.sylist ul li{
+	font-size: 18px;
+	padding: 25px 0 25px 55px;
+	background: url("../images/slibj.png") no-repeat 30px center;
+	border-bottom: 1px solid #dcdcdc;
+}
+.sylist ul li:last-child{
+	border-bottom: none;
+}
+
+.index-cont{
+	background: url("../images/cobj.jpg") no-repeat center center;
+	width: 100%;
+	height: 383px;
+}
+.index-corelist ul li{
+	float: left;
+	width: 299px;
+	text-align: center;
+	margin: 0 50px;
+}
+.index-corelist{
+	margin: 0 auto;
+}
+/*content end*/
+
+/*footer*/
+.footer{
+	background: url("../images/ftbj.jpg") repeat-x;
+	height: 87px;
+	overflow: hidden;
+}
+.footer-conternt{
+	color: #fff;
+	text-align: center;
+}
+.footer-conternt a{
+	color: #fff;
+	margin: 0 8px;
+}
+/*foonter end*/
+/*新闻*/
+.newslist ul li{
+	border-bottom: 1px solid #e5e5e5;
+	padding: 20px 10px 20px 20px;
+}
+.news-nyp p{
+	padding: 0 15px;
+}
+/*page*/
+.page a{
+	/*padding: 7px 12px;*/
+	background: url("../images/pbj1.png") no-repeat;
+	width: 38px;
+	height: 39px;
+	line-height: 45px;
+	display: block;
+	float: left;
+	color: #2fae9a;
+}
+
+.page a:hover{
+	background:url("../images/pbj.png") no-repeat;
+	color: #fff;
+}
+.page .page-active,.page .page1,.page .page2{
+	background: url("../images/pbj.png") no-repeat;
+	color: #fff;
+}
+/*page end*/
